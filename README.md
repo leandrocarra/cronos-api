@@ -1,4 +1,4 @@
-# Product Name
+# Cronos API
 > this api is part of a project called Cronos, which aims to let students know how many hours of study they have on any subject.
 
 ## Installation
