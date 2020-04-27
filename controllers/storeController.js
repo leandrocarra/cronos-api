@@ -8,9 +8,7 @@ exports.homePage = (req, res) => {
 };
 
 exports.createStore = async (req, res) => {
-  const store = new Store({
-    name: 'teeeeeeeeeeste'
-  })
+  const store = new Store(req.body)
   await store.save();
   res.redirect('/');
 };
