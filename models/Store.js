@@ -4,7 +4,11 @@ mongoose.Promise = global.Promise;
 const StoreSchema = new mongoose.Schema({
   description: {
     type: String,
-    require: 'Enter a name'
+    require: 'Enter name'
+  },
+  investedTime: { 
+    type: String,
+    require: 'Enter time'
   }
 });
 
