@@ -16,4 +16,4 @@ exports.createStore = async (req, res) => {
 exports.GetStores = async (req, res) => {
   const stores = await Store.find();
   res.json(stores)
-}
+};
